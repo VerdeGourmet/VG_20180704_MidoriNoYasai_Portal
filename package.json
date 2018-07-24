@@ -1,0 +1,24 @@
+{
+  "name": "vg-portal",
+  "version": "1.0.0",
+  "description": "Portal web para verde gourmet",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VerdeGourmet/VG_20180704_MidoriNoYasai_Portal.git"
+  },
+  "keywords": [
+    "Ensaldas",
+    "Verde",
+    "Gourmet"
+  ],
+  "author": "Diego Pena",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VerdeGourmet/VG_20180704_MidoriNoYasai_Portal/issues"
+  },
+  "homepage": "https://github.com/VerdeGourmet/VG_20180704_MidoriNoYasai_Portal#readme"
+}
