@@ -1,0 +1,1172 @@
+.hero {
+  position: static;
+  width: 100%;
+  height: 100vh;
+  background-image: url('../images/HeroLow.jpg');
+  background-position: 50% 58%;
+  background-size: auto;
+}
+
+.titulo {
+  position: absolute;
+  left: 0px;
+  top: 30%;
+  right: 0px;
+  text-align: center;
+}
+
+.titulo1 {
+  font-family: Code, sans-serif;
+  color: #fff;
+  font-size: 52px;
+  font-weight: 300;
+  text-align: center;
+}
+
+.navbarlogo {
+  width: 25%;
+  margin-right: 30%;
+}
+
+.navbar {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  background-color: hsla(0, 0%, 100%, .7);
+}
+
+.navmenu {
+  background-color: hsla(0, 0%, 100%, .8);
+}
+
+.menubutton {
+  margin-left: 30%;
+}
+
+.navlink {
+  display: block;
+  font-family: Sansation, sans-serif;
+  color: #ba3e27;
+  font-size: 16px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.navbaricon {
+  color: #ba3e27;
+}
+
+.secion1 {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.section2paragraph {
+  padding-top: 50px;
+  padding-right: 30%;
+  padding-left: 30%;
+  font-family: Sansation, sans-serif;
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+}
+
+.section0 {
+  display: none;
+  height: 100vh;
+}
+
+.descubrebutton {
+  margin-top: 50px;
+  padding-right: 45px;
+  padding-left: 45px;
+  border: 2px solid #fff;
+  background-color: transparent;
+  font-family: Code, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 4px;
+}
+
+.toppingbox {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+.textointro {
+  position: absolute;
+  left: 25%;
+  top: 40%;
+  font-family: Sansation, sans-serif;
+  color: #ba3e27;
+  font-size: 3.3vw;
+  font-style: italic;
+}
+
+.textointro2 {
+  position: absolute;
+  left: 25%;
+  top: 47%;
+  font-family: Sansation, sans-serif;
+  color: #ba3e27;
+  font-size: 1.6vw;
+  font-weight: 300;
+}
+
+.textointro3 {
+  position: absolute;
+  left: 25%;
+  top: 55%;
+  font-family: Sansation, sans-serif;
+  color: #ba3e27;
+  font-size: 1.6vw;
+  font-weight: 300;
+}
+
+.scroll {
+  position: absolute;
+  left: 48%;
+  top: 64%;
+}
+
+.secciontitulo {
+  position: relative;
+  padding-top: 53px;
+  background-color: #fffbe6;
+}
+
+.productossecciontext {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Code, sans-serif;
+  color: #ba3e27;
+  font-size: 48px;
+}
+
+.productossecciontext.precio {
+  color: #5ab447;
+}
+
+.ensaladastituloparrafo {
+  margin-bottom: 10px;
+  font-family: Sansation, sans-serif;
+  color: #ba3e27;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.ensaladastituloparrafo.precioparrafo {
+  color: #5ab447;
+}
+
+.ensaladastituloparrafo.jugostitulo {
+  font-size: 13px;
+}
+
+.diagramacionensaladas {
+  position: relative;
+  background-color: #f4f4f4;
+}
+
+.columnaensalada {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 10px;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-flex-wrap: nowrap;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imagenens {
+  width: 50%;
+  border-radius: 1000px;
+}
+
+.nombreensalada {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  font-family: Code, sans-serif;
+  color: #5ab447;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.ingredientes {
+  padding-right: 0px;
+  padding-left: 0px;
+  font-family: Sansation, sans-serif;
+  color: #5ab447;
+  font-size: 12px;
+}
+
+.productosseccion {
+  margin-top: 40px;
+  margin-right: 5%;
+  margin-left: 5%;
+  border-bottom: 1px solid #ba3e27;
+  text-align: center;
+}
+
+.productosseccion.jugos {
+  border-bottom-style: none;
+}
+
+.columnatopping {
+  display: inline-block;
+  width: 15%;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  text-align: center;
+}
+
+.imagentopping {
+  border-radius: 500px;
+}
+
+.nombretopping {
+  font-family: Code, sans-serif;
+  color: #ba3e27;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.nombreaderezo {
+  margin-top: 15px;
+  margin-bottom: 10px;
+  font-family: Code, sans-serif;
+  color: #5ab447;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+.nombreaderezo.jugonombre {
+  margin-bottom: 0px;
+  color: #ba3e27;
+  font-size: 24px;
+}
+
+.linkeventos {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  z-index: 2;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  margin-left: 20px;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: row;
+  -ms-flex-direction: row;
+  flex-direction: row;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.imagenevento {
+  border: 2px solid #5ab447;
+  border-radius: 500px;
+  background-color: transparent;
+  -webkit-transition: background-color 500ms ease;
+  transition: background-color 500ms ease;
+}
+
+.imagenevento:hover {
+  background-color: #82d870;
+}
+
+.ingedientesaderezos {
+  font-family: Sansation, sans-serif;
+  color: #5ab447;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.ingedientesaderezos.jugosing {
+  font-size: 14px;
+}
+
+.spacersection {
+  position: relative;
+  height: 30px;
+  background-color: #fffbe6;
+}
+
+.spacer {
+  height: 1px;
+  margin-left: 35%;
+  background-color: #ba3e27;
+}
+
+.secciontoppings {
+  position: relative;
+  padding: 30px 5%;
+  background-color: #fffbe6;
+}
+
+.titulotopping {
+  display: inline-block;
+}
+
+.navcont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.columnapedido {
+  background-color: #5ab447;
+}
+
+.pedidossection {
+  height: 100vh;
+}
+
+.cuantocuesta {
+  position: relative;
+  display: none;
+  border-top: 2px solid #5ab447;
+  background-color: #fffbe6;
+}
+
+.donde {
+  position: relative;
+  padding: 50px 5%;
+  background-color: #fffbe6;
+}
+
+.pedidos {
+  position: relative;
+  padding-top: 50px;
+  background-color: #fffbe6;
+}
+
+.columnaprecio {
+  padding: 2% 12%;
+}
+
+.preciotitulobox {
+  padding-top: 80px;
+  padding-left: 5%;
+}
+
+.raya {
+  width: 40px;
+  height: 10px;
+  margin-bottom: 10px;
+  border-bottom: 3px solid #5ab447;
+}
+
+.dondetitulo {
+  margin-bottom: 15px;
+  font-family: Code, sans-serif;
+  color: #5ab447;
+  text-align: right;
+}
+
+.dondeparrafo {
+  margin-bottom: 15px;
+  font-family: Sansation, sans-serif;
+  color: grey;
+  font-style: italic;
+  text-align: right;
+}
+
+.dondelink {
+  display: inline-block;
+  margin-top: 10px;
+  margin-right: 10px;
+  font-family: Sansation, sans-serif;
+  color: #ba3e27;
+  font-size: 16px;
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.dondecolumna {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.dondecolumna.bottom {
+  -webkit-box-pack: end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: end;
+  justify-content: flex-end;
+}
+
+.donderow {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: end;
+  align-items: flex-end;
+}
+
+.dondelinkblock {
+  margin-bottom: 15px;
+  text-align: right;
+  text-decoration: none;
+}
+
+.footer {
+  position: relative;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: #5ab447;
+}
+
+.footercontainer {
+  text-align: center;
+}
+
+.footerlinea {
+  display: inline-block;
+  width: 44%;
+  height: 10px;
+  border-bottom: 2px solid #fffbe6;
+}
+
+.footerensaladabox {
+  display: inline-block;
+  width: 12%;
+  text-align: center;
+}
+
+.footerensalada {
+  margin-right: 10px;
+  margin-left: 10px;
+}
+
+.footertexto {
+  font-family: Sansation, sans-serif;
+  color: #fffbe6;
+  font-size: 14px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.footerlink {
+  font-family: Sansation, sans-serif;
+  color: #fffbe6;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.footerfb {
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.footerig {
+  margin-right: 20px;
+  margin-left: 5px;
+}
+
+.footerwa {
+  margin-left: 5px;
+}
+
+.pedidoscol {
+  position: relative;
+  padding-right: 0px;
+  padding-left: 0px;
+}
+
+.pedidostitulo {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  width: 60%;
+  height: 30%;
+  margin-top: 35%;
+  margin-left: 20%;
+  text-align: center;
+}
+
+.pedidostexto {
+  margin-top: 15px;
+  font-family: Code, sans-serif;
+  color: #fff;
+  font-size: 32px;
+  font-weight: 700;
+  text-align: center;
+  letter-spacing: 1px;
+}
+
+.pedidosparrafo {
+  display: inline-block;
+  margin-top: 30px;
+  font-family: Sansation, sans-serif;
+  color: #fff;
+  font-size: 12px;
+  line-height: 14px;
+  font-style: italic;
+}
+
+.pedidostitulo2 {
+  font-family: Sansation, sans-serif;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  text-align: center;
+}
+
+.pedidosboton {
+  border: 1px solid #fff;
+  background-color: transparent;
+  -webkit-transition: all 300ms ease;
+  transition: all 300ms ease;
+  font-family: Code, sans-serif;
+  font-size: 22px;
+  letter-spacing: 2px;
+}
+
+.pedidosboton:hover {
+  border-color: #5ab447;
+  background-color: #5ab447;
+}
+
+.preciotitulo {
+  display: block;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  font-family: Code, sans-serif;
+  color: #666;
+  font-size: 28px;
+}
+
+.preciosubtexto {
+  display: block;
+  font-family: Sansation, sans-serif;
+  color: #ba3e27;
+}
+
+.herosection {
+  height: 80%;
+}
+
+.heroslider {
+  height: 100%;
+}
+
+.body {
+  height: 100%;
+}
+
+.heroslide1 {
+  position: relative;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  background-image: url('../images/Verde-Gourmet-Ensaladas-Verduras-Bogota-2.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.heroslider1texto {
+  position: absolute;
+  left: 20%;
+  top: 43%;
+  right: 0px;
+  font-family: Sansation, sans-serif;
+  color: #fff;
+  font-size: 36px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.heroslider1texto.subtexto {
+  top: 50%;
+  font-weight: 700;
+}
+
+.herosliderarrow {
+  color: transparent;
+}
+
+.heroslide2 {
+  background-image: url('../images/Verde-Gourmet-Ensaladas-Verduras-Bogota.jpg');
+  background-position: 50% 50%;
+  background-size: cover;
+}
+
+.menuensaladas {
+  padding-top: 35px;
+  padding-bottom: 35px;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  background-color: #f4f4f4;
+}
+
+.menupreciosbox {
+  display: inline-block;
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ba3e27;
+}
+
+.menupreciosimagen {
+  width: 100%;
+}
+
+.footersection {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+  z-index: 2;
+  height: 10%;
+  background-image: -webkit-linear-gradient(90deg, #5ab447, rgba(90, 180, 71, 0));
+  background-image: linear-gradient(0deg, #5ab447, rgba(90, 180, 71, 0));
+}
+
+.navbarsection {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  height: 60px;
+  padding-right: 5%;
+  padding-left: 5%;
+  background-color: hsla(0, 0%, 100%, .8);
+}
+
+.navbarcont {
+  height: 80%;
+  margin-top: 6px;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.navbarbrand {
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navmenucont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbarlink {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  padding: 0px 15px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  font-family: Sansation, sans-serif;
+  color: #5ab447;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.navbarlink.invisible {
+  display: none;
+}
+
+.navbarimg {
+  height: 100%;
+}
+
+.navbarwathsappcont {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  height: 100%;
+  margin-right: 80px;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.navbarwhatsapptexto {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: 6px;
+  font-family: Sansation, sans-serif;
+  color: #5ab447;
+  font-size: 21px;
+  font-weight: 400;
+}
+
+.ataseccion {
+  padding-right: 5%;
+  padding-bottom: 20px;
+  padding-left: 5%;
+  background-color: #f4f4f4;
+}
+
+.atabox {
+  display: inline-block;
+  width: 50%;
+  margin-bottom: 30px;
+}
+
+.jugoslogo {
+  width: 25%;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+html.w-mod-js *[data-ix="scroll-down-opacity"] {
+  opacity: 0;
+}
+
+@media (max-width: 991px) {
+  .navbarlogo {
+    width: 40%;
+  }
+  .navlink {
+    font-size: 14px;
+  }
+  .navbarmenubutton {
+    padding: 12px;
+  }
+}
+
+@media (max-width: 767px) {
+  .hero {
+    height: 800px;
+  }
+  .titulo {
+    top: 15%;
+  }
+  .titulo1 {
+    font-size: 38px;
+  }
+  .navbarlogo {
+    width: 50%;
+    margin-right: 0%;
+  }
+  .menubutton {
+    margin-left: 0%;
+    background-color: transparent;
+  }
+  .section2paragraph {
+    padding-right: 15%;
+    padding-left: 15%;
+  }
+  .section0 {
+    height: 800px;
+  }
+  .toppingbox {
+    display: block;
+    width: 100%;
+  }
+  .textointro {
+    left: 8%;
+    top: 33%;
+    font-size: 5vw;
+  }
+  .textointro2 {
+    left: 8%;
+    top: 42%;
+    font-size: 3vw;
+  }
+  .textointro3 {
+    left: 8%;
+    font-size: 3vw;
+  }
+  .productoscont {
+    display: block;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .productossecciontext.topping {
+    display: inline-block;
+    width: 100%;
+    font-size: 38px;
+  }
+  .ensaladastituloparrafo {
+    font-size: 12px;
+  }
+  .ensaladastituloparrafo.toppingparrafo {
+    display: inline-block;
+    font-size: 12px;
+  }
+  .diagramacionensaladas {
+    padding-top: 1px;
+  }
+  .imagenens {
+    width: 50%;
+  }
+  .ingredientes {
+    font-size: 14px;
+  }
+  .linea {
+    margin-left: 25px;
+  }
+  .productosseccion {
+    display: block;
+  }
+  .columnatopping {
+    width: 50%;
+  }
+  .imagentopping {
+    width: 50%;
+  }
+  .nombretopping {
+    font-size: 11px;
+  }
+  .nombreaderezo {
+    font-size: 18px;
+  }
+  .spacer {
+    margin-left: 0%;
+  }
+  .secciontoppings {
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  .titulotopping {
+    display: block;
+    width: 100%;
+    text-align: center;
+  }
+  .columnaprecio {
+    padding: 5% 5% 20%;
+  }
+  .preciotitulobox {
+    padding-top: 20px;
+  }
+  .dondecolumna {
+    margin-top: 20px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .donderow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+  .footerlinea {
+    width: 30%;
+    border-bottom-width: 1px;
+  }
+  .footerensaladabox {
+    width: 20%;
+  }
+  .footerensalada {
+    height: 40px;
+  }
+  .footertexto {
+    font-size: 11px;
+  }
+  .footerlink {
+    font-size: 12px;
+  }
+  .footerfb {
+    margin-left: 2px;
+  }
+  .footerig {
+    margin-left: 2px;
+  }
+  .footerwa {
+    margin-left: 2px;
+  }
+  .pedidostexto {
+    font-size: 30px;
+  }
+  .preciotitulo {
+    font-size: 24px;
+  }
+  .heroslider1texto {
+    left: 5%;
+    font-size: 24px;
+  }
+  .menupreciosbox {
+    width: 100%;
+  }
+  .navbarsection {
+    padding-right: 2%;
+    padding-left: 2%;
+  }
+  .navbarbrand {
+    padding-left: 0px;
+  }
+  .atabox {
+    width: 100%;
+  }
+  .aderezosrow {
+    display: inline-block;
+    width: 50%;
+  }
+  .jugoslogo {
+    width: 50%;
+  }
+}
+
+@media (max-width: 479px) {
+  .navbarlogo {
+    width: 70%;
+  }
+  .menubutton.w--open {
+    background-color: transparent;
+  }
+  .section2paragraph {
+    padding-right: 4%;
+    padding-left: 4%;
+  }
+  .toppingbox {
+    text-align: center;
+  }
+  .textointro {
+    left: 2%;
+    top: 24%;
+    font-size: 7vw;
+  }
+  .textointro2 {
+    left: 2%;
+    top: 40%;
+    font-size: 3.3vw;
+    line-height: 21px;
+    text-align: left;
+  }
+  .textointro3 {
+    left: 2%;
+    font-size: 3.3vw;
+  }
+  .productossecciontext {
+    font-size: 3em;
+  }
+  .ensaladastituloparrafo.toppingparrafo {
+    display: block;
+    width: 100%;
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+  .columnaensalada {
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+  .linea {
+    margin-left: 10px;
+  }
+  .columnatopping {
+    display: inline-block;
+  }
+  .imagentopping {
+    width: 70%;
+  }
+  .titulotopping {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center;
+  }
+  .navcont {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  .columnaprecio {
+    padding-top: 1%;
+    padding-right: 1%;
+    padding-left: 1%;
+  }
+  .footerensaladabox {
+    width: 30%;
+  }
+  .footerlink {
+    font-size: 11px;
+  }
+  .footerfb {
+    margin-right: 15px;
+  }
+  .footerig {
+    margin-right: 15px;
+  }
+  .pedidostitulo {
+    width: 70%;
+    margin-top: 20%;
+    margin-left: 15%;
+  }
+  .pedidostexto {
+    font-size: 22px;
+  }
+  .pedidostitulo2 {
+    font-size: 14px;
+  }
+  .pedidosboton {
+    font-size: 18px;
+  }
+  .preciotitulo {
+    font-size: 28px;
+  }
+  .preciosubtexto {
+    font-size: 11px;
+  }
+  .navbarbrand {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .navbarimg {
+    height: 60%;
+  }
+}
+
+@font-face {
+  font-family: 'Sansation';
+  src: url('../fonts/Sansation_Bold_5.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sansation';
+  src: url('../fonts/Sansation_Light_5.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Sansation';
+  src: url('../fonts/Sansation_Italic_4.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sansation';
+  src: url('../fonts/Sansation_Bold_Italic_4.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sansation';
+  src: url('../fonts/Sansation_Light_Italic_4.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Sansation';
+  src: url('../fonts/Sansation_Regular_4.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code';
+  src: url('../fonts/CODE-Bold_1.otf') format('opentype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Code';
+  src: url('../fonts/CODE-Light_1.otf') format('opentype');
+  font-weight: 300;
+  font-style: normal;
+}
